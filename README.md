@@ -65,3 +65,31 @@ print(catalogo.imprimir_catalogo())
     4. Armazenamento dos Números de Telefone:
 
         Os números de telefone estão armazenados no dicionário self.catalogo da classe CatalogoTelefonico. Cada entrada no dicionário é um par chave/valor, onde a chave é o nome do contato e o valor é o número de telefone.
+
+## Envio para o GitHub
+
+Para enviar os arquivos do seu disco local para o repositório GitHub, você pode seguir estes passos:
+
+### Navegar até o diretório do projeto
+
+cd /caminho/para/o/diretorio/do/projeto
+
+### Inicializar um repositório Git (se ainda não estiver inicializado)
+
+git init
+
+### Adicionar todos os arquivos ao repositório Git
+
+git add .
+
+### Fazer o commit dos arquivos adicionados
+
+git commit -m "Primeiro commit do projeto de catálogo telefônico"
+
+### Adicionar o repositório remoto no GitHub
+
+git remote add origin [https://github.com/IOVASCON/Catalago_Telefonico.git]
+
+### Enviar os arquivos para o repositório remoto
+
+git push -u origin master
