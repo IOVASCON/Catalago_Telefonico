@@ -2,6 +2,11 @@
 
 Este projeto é um sistema de catálogo telefônico simples desenvolvido em Python, utilizando um dicionário para armazenar os contatos e a biblioteca Tkinter para a interface gráfica.
 
+## Requisitos
+
+- Python 3.x
+- Tkinter (geralmente incluído no Python)
+
 ## Estrutura do Projeto
 
 - `utils/`
